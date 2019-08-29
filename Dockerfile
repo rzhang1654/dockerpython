@@ -10,4 +10,4 @@ RUN pip install Flask
 COPY simpleapp.py /src/simpleapp.py
 
 EXPOSE  8005
-CMD ["python", "/src/simpleapp.py", "-p 8005"]
+CMD ["python", "/src/simpleapp.py", "-p 8006"]
